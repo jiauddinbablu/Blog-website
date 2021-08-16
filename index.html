@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Website</title>
+    <title>Moshify</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
@@ -13,8 +13,18 @@
     
 </head>
 <body>
-    <button class="btn btn--block btn--outline">Buy Now</button>
-    <button class="btn btn--secondary btn--block">Buy Now</button>
-    <a href="" class="btn btn--accent btn--block">Buy Now</a>
+    <div class="collapsible collapsible--expanded">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">Item-1</h2>
+                <svg class="icon icon--primary icon--white collapsible--chevron">
+                    <use xlink:href="images/sprite.svg#chevron"></use>
+                  </svg>
+        </header>
+        <div class="collapsible__content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, explicabo corporis illo iure cum aspernatur aliquam ducimus quaerat iusto officia.</p>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
